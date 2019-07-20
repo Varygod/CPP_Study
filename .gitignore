@@ -31,3 +31,9 @@
 *.out
 *.app
 Debug
+/testClass/.vs/testClass/v15/.suo
+/testClass/.vs/testClass/v15/Browse.VC.db
+/testClass/.vs/testClass/v15/Browse.VC.opendb
+/testClass/.vs/testClass/v15/Solution.VC.db
+/testClass/.vs/testClass/v15/Solution.VC.db-shm
+/testClass/.vs/testClass/v15/Solution.VC.db-wal
