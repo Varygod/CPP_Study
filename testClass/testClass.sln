@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testPolymorphism", "testPol
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testVirtualFunc3", "testVirtualFunc3\testVirtualFunc3.vcxproj", "{BAF3751A-FEA4-45CF-845A-FF219A315646}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testVirtualFunc4", "testVirtualFunc4\testVirtualFunc4.vcxproj", "{30C4312C-D604-4EBF-8C3F-1661867B3A1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -55,6 +57,14 @@ Global
 		{BAF3751A-FEA4-45CF-845A-FF219A315646}.Release|Win32.Build.0 = Release|Win32
 		{BAF3751A-FEA4-45CF-845A-FF219A315646}.Release|x64.ActiveCfg = Release|x64
 		{BAF3751A-FEA4-45CF-845A-FF219A315646}.Release|x64.Build.0 = Release|x64
+		{30C4312C-D604-4EBF-8C3F-1661867B3A1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30C4312C-D604-4EBF-8C3F-1661867B3A1F}.Debug|Win32.Build.0 = Debug|Win32
+		{30C4312C-D604-4EBF-8C3F-1661867B3A1F}.Debug|x64.ActiveCfg = Debug|x64
+		{30C4312C-D604-4EBF-8C3F-1661867B3A1F}.Debug|x64.Build.0 = Debug|x64
+		{30C4312C-D604-4EBF-8C3F-1661867B3A1F}.Release|Win32.ActiveCfg = Release|Win32
+		{30C4312C-D604-4EBF-8C3F-1661867B3A1F}.Release|Win32.Build.0 = Release|Win32
+		{30C4312C-D604-4EBF-8C3F-1661867B3A1F}.Release|x64.ActiveCfg = Release|x64
+		{30C4312C-D604-4EBF-8C3F-1661867B3A1F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
