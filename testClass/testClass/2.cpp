@@ -25,7 +25,7 @@ public:
 	D(int a, int b, int c) : B(b), C(c), A(a){}
 };
 
-int main()
+int main1()
 {
 	return 0;
 }
