@@ -117,8 +117,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="test.c" />
-    <ClCompile Include="实现memcpy函数.c" />
-    <ClCompile Include="实现strcpy函数.c" />
+    <ClCompile Include="mystring.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mystring.h" />

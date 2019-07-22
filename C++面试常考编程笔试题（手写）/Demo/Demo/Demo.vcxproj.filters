@@ -15,13 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="实现strcpy函数.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="test.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="实现memcpy函数.c">
+    <ClCompile Include="mystring.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
