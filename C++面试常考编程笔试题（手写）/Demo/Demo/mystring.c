@@ -96,5 +96,32 @@ int myatoi(char *str)
 
 char *myitoa(int num)
 {
-	
+	char str[1024];
+	char temp[11];
+	int sign = num;
+	int i = 0, j = 0;
+	if (sign<0)
+	{
+		num = -num;
+	}
+	do 
+	{
+		temp[i] = num % 10 + '0';
+		num /= 10;
+		i++;
+	} while (num>0);
+
+	if(sign<0)
+	{
+		temp[i++] = '-';
+
+	}
+	temp[i] = '\0';
+	i--;
+	while (i>=0)
+	{
+		str[i--] = temp[j++];
+	}
+	str[j] = '\0';
+	return  str;
 }
