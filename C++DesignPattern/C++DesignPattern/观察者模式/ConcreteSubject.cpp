@@ -18,9 +18,3 @@ STATE ConcreteSubject::GetState()
 {
 	return m_nSubjectState;
 }
-
-
-
-
-
-

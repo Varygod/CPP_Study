@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 	subject->SetState(1);
 	subject->Notify();
 
+
 	cout << "--------------------" << endl;
 	subject->Detach(objC);
 	subject->Detach(objB);
