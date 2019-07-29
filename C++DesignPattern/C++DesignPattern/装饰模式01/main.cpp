@@ -41,6 +41,15 @@ int main(int argc, char* argv[])
 	CondimentDecorator *pCreamMochaSyrup = new Syrup(pCreamMocha);
 	cout << pCreamMochaSyrup->Name() <<"¡¾Éî¶ÈºæÅà¿§·È¶¹ + ÄÌÓÍ + Ä¦¿¨ + ÌÇ½¬¡¿"<< " : " << pCreamMochaSyrup->Price() << endl;
 
+
+	delete pBlackCoffee;
+	delete pCream;
+	delete pMocha;
+	delete pSyrup;
+	delete pDarkRoast;
+	delete pCreamDR;
+	delete pCreamMocha;
+	delete pCreamMochaSyrup;
 	getchar();
 }
 
